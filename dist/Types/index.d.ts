@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { WAMessageUpdate, proto } from "../baron-baileys2";
+import { WAMessageUpdate, proto } from "baron-baileys";
 export interface SendMessageTypes {
     to: string | number;
     text?: string;
