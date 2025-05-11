@@ -1,4 +1,4 @@
-import { proto } from "../baron-baileys";
+import { proto } from "../baron-baileys2";
 import { SendMediaTypes, SendMessageTypes, SendReadTypes, SendTypingTypes } from "../Types";
 export declare const sendTextMessage: ({ sessionId, to, text, isGroup, ...props }: SendMessageTypes) => Promise<proto.WebMessageInfo | undefined>;
 export declare const sendImage: ({ sessionId, to, text, isGroup, media, ...props }: SendMediaTypes) => Promise<proto.WebMessageInfo | undefined>;
@@ -9,9 +9,9 @@ export declare const sendDocument: ({ sessionId, to, text, isGroup, media, filen
 export declare function sendMessage(
     sessionId: string,
     jid: string,
-    content: import("../baron-baileys").AnyMessageContent,
-    options?: import("../baron-baileys").MiscMessageGenerationOptions
-  ): Promise<import("../baron-baileys").proto.WebMessageInfo>;
+    content: import("../baron-baileys2").AnyMessageContent,
+    options?: import("../baron-baileys2").MiscMessageGenerationOptions
+  ): Promise<import("../baron-baileys2").proto.WebMessageInfo>;
   
 export declare const kickusr: ({ sessionId, to, text }: SendMessageTypes) => Promise<proto.WebMessageInfo | undefined>;
 export declare const del: ({ sessionId, to, id,sender }: SendMessageTypes) => Promise<proto.WebMessageInfo | undefined>;

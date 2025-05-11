@@ -1,4 +1,4 @@
-import { WASocket } from "../baron-baileys";
+import { WASocket } from "../baron-baileys2";
 import type { MessageReceived, MessageUpdated, StartSessionParams } from "../Types";
 export declare const startSession: (sessionId?: string, options?: StartSessionParams) => Promise<WASocket>;
 /**
