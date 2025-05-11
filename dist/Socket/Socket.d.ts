@@ -1,4 +1,4 @@
-import { WASocket } from "@whiskeysockets/baileys";
+import { WASocket } from "../baron-baileys";
 import { MessageReceived, MessageUpdated } from "../Types";
 export declare class Socket {
     constructor({ id, phoneNumber, socket, }: {

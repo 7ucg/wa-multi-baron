@@ -29,6 +29,7 @@
     "@hapi/boom": "^10.0.1",
     "mime": "^3.0.0",
     "pino": "^9.6.0",
+    "qrcode": "^1.5.4",
     "qrcode-terminal": "^0.12.0"
   },
   "devDependencies": {
