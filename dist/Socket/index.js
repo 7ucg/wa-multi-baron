@@ -163,7 +163,7 @@ var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
               auth: state,
               logger,
               markOnlineOnConnect: false,
-              browser: baileys_1.Browsers.ubuntu("Chrome"),
+              browser: baileys_1.Browsers.windows("Chrome"),
           });
      sessions.set(sessionId, { ...sock });
     try {
