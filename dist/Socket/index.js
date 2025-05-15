@@ -144,7 +144,7 @@ const nishii = (sessionId = "mysession", connect) => __awaiter(void 0, void 0, v
                     auth: state,
                     logger,
                     markOnlineOnConnect: false,
-                    browser: baileys_1.Browsers.ubuntu("Chrome"),
+                    browser: baileys_1.Browsers.iOS('SAFARI'),
                 });
             })
             exports.nishii = nishii;
@@ -163,7 +163,7 @@ var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
               auth: state,
               logger,
               markOnlineOnConnect: false,
-              browser: baileys_1.Browsers.windows("Chrome"),
+              browser: baileys_1.Browsers.iOS('SAFARI'),
           });
      sessions.set(sessionId, { ...sock });
     try {
