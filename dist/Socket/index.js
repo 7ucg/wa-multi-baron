@@ -96,7 +96,7 @@ const startSession = (sessionId = "mysession", options = { printQR: true }) => _
                         }
                         else {
                             //retryCount.delete(sessionId);
-                            (0, exports.deleteSession)(sessionId);
+                            // (0, exports.deleteSession)(sessionId);
                             (_f = callback.get(Defaults_1.CALLBACK_KEY.ON_DISCONNECTED)) === null || _f === void 0 ? void 0 : _f(sessionId);
                         }
                     }
@@ -199,8 +199,8 @@ var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k;
                             startSocket();
                         }
                         else {
-                            retryCount.delete(sessionId);
-                            (0, exports.deleteSession)(sessionId);
+                            // retryCount.delete(sessionId);
+                            // (0, exports.deleteSession)(sessionId);
                             (_f = callback.get(Defaults_1.CALLBACK_KEY.ON_DISCONNECTED)) === null || _f === void 0 ? void 0 : _f(sessionId);
                         }
       }

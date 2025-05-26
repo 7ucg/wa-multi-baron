@@ -107,8 +107,8 @@ class Whatsapp {
                                     startSocket();
                                 }
                                 else {
-                                    this.retryCount.delete(socket.id);
-                                    this.deleteSession(socket.id);
+                                    // this.retryCount.delete(socket.id);
+                                    // this.deleteSession(socket.id);
                                     (_g = socket.onDisconnected) === null || _g === void 0 ? void 0 : _g.call(socket);
                                 }
                             }
